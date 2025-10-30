@@ -7,9 +7,9 @@ def get_promt():
         return f.read()
 
 def get_res(path, path_out):
-    YANDEX_CLOUD_MODEL = "yandexgpt-lite"
-    YANDEX_CLOUD_API_KEY = 'AQVNxD8vOj7ycPRHKa8h00Sim86-73eUhi2HyNil'
-    YANDEX_CLOUD_FOLDER = 'b1gbocd25nfd26t4p5g8'
+    YANDEX_CLOUD_MODEL = ""
+    YANDEX_CLOUD_API_KEY = ''
+    YANDEX_CLOUD_FOLDER = ''
 
     client = openai.OpenAI(
         api_key=YANDEX_CLOUD_API_KEY,
